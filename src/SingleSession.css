@@ -1,0 +1,109 @@
+.hangman {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  .hangman-title {
+    font-family: "Nosifer", cursive;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    background-color: transparent;
+  }
+  
+  .scores-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+  }
+  
+  .score {
+    flex: 1;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-style: italic;
+  }
+  
+  .total-score {
+    flex: 1;
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 10px;
+  }
+  
+  .word {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .letters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    max-width: 700px;
+    margin-bottom: 10px;
+    background-color: #d3d3d386 ;
+    border-radius: 7px;
+  }
+  
+  button {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .guessed-letter.correct {
+    background-color: #007a7a;
+    color: white;
+    outline: 2px solid white;
+  }
+  
+  .guessed-letter.wrong {
+    background-color: rgb(212, 3, 3);
+    color: white;
+    outline: 2px solid white;
+  }
+  
+  img {
+    width: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .round {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .button-container {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+  }
+  
+  
+  button.play-again {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+  }
+  
