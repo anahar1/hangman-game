@@ -14,7 +14,7 @@ function Share({ setShowShare }) {
   const [word, setWord] = useState('');
 
   const generateLink = () => {
-    const newLink = `https://akskola.github.io/hangman-game/#/singlesession/${encodeWord(word).toUpperCase()}`;
+    const newLink = `https://anahar1.github.io/hangman-game/#/singlesession/${encodeWord(word).toUpperCase()}`;
     setLink(newLink);
     navigator.clipboard.writeText(newLink);
   };
